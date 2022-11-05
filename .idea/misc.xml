@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/drawable/ic_all.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/drawable/ic_top.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/activity_main.xml" value="0.12917933130699089" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/fragment_everything.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/fragment_sources.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/fragment_top_articles.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/item_everything.xml" value="0.121875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/item_everything_list.xml" value="0.121875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/item_sources.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/item_top.xml" value="0.121875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/layout/item_top_articles.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Homework4_3/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="dagger.Provides" />
+      <item index="1" class="java.lang.String" itemvalue="dagger.hilt.InstallIn" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

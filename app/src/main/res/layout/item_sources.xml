@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp">
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Jacob"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+    <TextView
+        android:id="@+id/description_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Description hfghdfghdfghdfghdfghdfhdfghdfhdfhdfhdgfghdgfhdfghdfdghdfghdfg"
+        android:textColor="@color/black" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/language_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENG"
+        android:textColor="@color/grey"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/category_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textColor="@color/grey" />
+</LinearLayout>
