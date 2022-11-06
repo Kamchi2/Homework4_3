@@ -28,7 +28,7 @@ class TopArticlesListFragment :
     }
 
     override fun setupSubscribes() {
-        viewModel.fetchPokemonName().subscribe(
+        viewModel.fetchTopArticles().subscribe(
             onSuccess = {
                 adapter.submitList(it.articles)
             },

@@ -1,15 +1,11 @@
 package com.example.homework4_3.ui.fragments.sources
 
-import android.app.Fragment
 import android.util.Log
 import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.example.homework4_3.base.BaseFragment
 import com.example.homework4_3.R
-import com.example.homework4_3.databinding.FragmentEverythingBinding
+import com.example.homework4_3.base.BaseFragment
 import com.example.homework4_3.databinding.FragmentSourcesBinding
-import com.example.homework4_3.ui.adapters.everything.EverythingListAdapter
 import com.example.homework4_3.ui.adapters.sources.SourcesListAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -30,7 +26,7 @@ class SourcesListFragment :
     }
 
     override fun setupSubscribes() {
-        viewModel.fetchPokemonName().subscribe(
+        viewModel.fetchSources().subscribe(
             onSuccess = {
                 adapter.submitList(it.articles)
             },

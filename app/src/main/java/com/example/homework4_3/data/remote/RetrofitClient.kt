@@ -1,6 +1,7 @@
 package com.example.homework4_3.data.remote
 
 import com.example.homework4_3.data.remote.apiservices.NewsApiService
+import com.example.homework4_3.data.remote.interceptors.ApiKeyInterceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -14,7 +15,9 @@ class RetrofitClient {
             .addConverterFactory(GsonConverterFactory.create()).build()
 
     fun provideOkHttpClient() =
-        OkHttpClient().newBuilder().addInterceptor(provideLoggingInterceptor())
+        OkHttpClient().newBuilder()
+            .addInterceptor(provideLoggingInterceptor())
+            .addInterceptor(ApiKeyInterceptor())
             .callTimeout(30, TimeUnit.SECONDS)
             .connectTimeout(30, TimeUnit.SECONDS)
             .readTimeout(30, TimeUnit.SECONDS)

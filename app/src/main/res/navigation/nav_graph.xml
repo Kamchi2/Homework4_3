@@ -3,26 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/everythingFragment">
+    app:startDestination="@id/everything">
 
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.example.homework4_3.ui.activity.MainActivity"
-        android:label="Main Activity"
-        tools:layout="@layout/activity_main"
-        />
     <fragment
-        android:id="@+id/everythingFragment"
+        android:id="@+id/everything"
         android:name="com.example.homework4_3.ui.fragments.everything.EverythingListFragment"
         android:label="Everything"
         tools:layout="@layout/fragment_everything" />
     <fragment
-        android:id="@+id/topArticlesFragment"
+        android:id="@+id/topArticles"
         android:name="com.example.homework4_3.ui.fragments.toparticles.TopArticlesListFragment"
         android:label="Top Articles"
         tools:layout="@layout/fragment_top_articles" />
     <fragment
-        android:id="@+id/sourcesFragment"
+        android:id="@+id/sources"
         android:name="com.example.homework4_3.ui.fragments.sources.SourcesListFragment"
         android:label="Sources"
         tools:layout="@layout/fragment_sources" />

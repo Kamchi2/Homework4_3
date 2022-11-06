@@ -26,7 +26,7 @@ class EverythingListFragment :
     }
 
     override fun setupSubscribes() {
-        viewModel.fetchPokemonName().subscribe(
+        viewModel.fetchEverything().subscribe(
             onSuccess = {
                 adapter.submitList(it.articles)
             },
