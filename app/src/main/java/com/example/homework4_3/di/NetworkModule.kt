@@ -13,7 +13,7 @@ object NetworkModule {
 
     @Singleton
     @Provides
-    fun providePokemonApiService(retrofitClient: RetrofitClient) = retrofitClient.providePokemonApiService()
+    fun provideNewsApiService(retrofitClient: RetrofitClient) = retrofitClient.providePokemonApiService()
 
     @Singleton
     @Provides
